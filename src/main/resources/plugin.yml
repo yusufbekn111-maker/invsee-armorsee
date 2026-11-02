@@ -1,0 +1,16 @@
+name: InvSee
+version: 1.0
+main: invsee.InvSee
+api-version: "1.20"
+commands:
+  invsee:
+    description: "O'yinchi inventarini ko'rish"
+    usage: "/invsee <nick>"
+  armorsee:
+    description: "O'yinchi zirhi va chap qo'lini ko'rish"
+    usage: "/armorsee <nick>"
+permissions:
+  invsee.use:
+    default: op
+  invsee.exempt:
+    default: false
